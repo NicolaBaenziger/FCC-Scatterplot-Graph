@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding-top: 80px;
+}
+
+#title {
+  font-size: large;
+}
+
+#subtitle {
+  font-size: medium;
+}
+
+.chart-container {
+  position: relative;
+}
+
+#scatterplot {
+  width: 800px;
+  height: 400px;
+  background-color: #f0f0f0;
+}
+
+.dot {
+  fill: steelblue;
+  stroke: #fff;
+  stroke-width: 1px;
+}
+
+.axis-label {
+  font-size: 14px;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+.tooltip {
+  opacity: 0;
+}
+
+#legend {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
